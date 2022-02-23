@@ -8,7 +8,7 @@ h1 {
 .tempest {
   color: #e8beac;
 }
-section {
+.flexiable {
   display: flex;
   margin-bottom: 85px;
 }
@@ -27,11 +27,43 @@ section {
   font-weight: 700px;
 }
 .top-banner {
-  background-image: url(/images/top-banner.png);
+  background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
 }
 .dream-big {
-  background-image: url(/images/dream-bg.png);
+  background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+.ultimate
+{
+ background-image: url(images/exp-bg.png);
+ background-repeat:no-repeat;
+background-position:left;
+}
+.skill
+{
+  width:40%;
+  padding-left:20px;
+  padding-right:20px;
+  margin-left: 5%;
+  margin-left: 5%;
+  box-shadow:10px 10px 40px purple;
+  border-radius:10px;
+}
+#colorline
+{
+  border-left:8px;
+  background-image:linear-gradient(blue cyan);
+  border-image-slice:1;
+}
+#colorlinetwo
+{
+  
+  border-left:8px;
+  background-image:linear-gradient(blue cyan);
+  border-image-slice:1;
+}
+footer{
+  text-align:center;
 }
